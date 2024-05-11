@@ -1,0 +1,40 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color variables */
+:root {
+  --text-color-primary: #7d7987;
+  --text-color-secondary: #000;
+  --text-color-highlight: #89c5cc;
+  --gray: #f9f9f9;
+}
+
+/* general */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.text h1,
+.text ul {
+  font-family: "Mulish", sans-serif;
+}
+
+.text h1 {
+}
+
+.text h1 span {
+}
+
+button {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* main */
+
+/* footer */
