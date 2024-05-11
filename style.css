@@ -31,18 +31,22 @@ a {
   margin: 65px auto 0;
 }
 
-/* header */
-header {
+/* nav */
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 55px;
 }
 
-ul li {
-  list-style: none;
+ul {
   display: flex;
   gap: 48px;
+}
+
+ul li {
+  list-style: none;
 }
 
 /* main */
@@ -52,11 +56,15 @@ section ul {
   font-family: "Mulish", sans-serif;
 }
 
-section h1 {
+/* section h1 {
+  width: 489px;
+  font-size: 49px;
+  font-weight: 400;
 }
 
 section h1 span {
-}
+  color: var(--text-color-highlight);
+} */
 
 button {
   font-family: "DM Sans", sans-serif;
