@@ -12,6 +12,7 @@
   --text-color-primary: #7d7987;
   --text-color-secondary: #000;
   --text-color-highlight: #89c5cc;
+  --text-color-navigation-primary: #1f1534;
   --gray: #f9f9f9;
 }
 
@@ -22,6 +23,7 @@ body {
   font-size: 14px;
 }
 
+ul li a,
 a {
   text-decoration: none;
 }
@@ -29,6 +31,11 @@ a {
 .page {
   width: 1000px;
   margin: 65px auto 0;
+}
+
+section h1,
+section ul {
+  font-family: "Mulish", sans-serif;
 }
 
 /* nav */
@@ -49,12 +56,22 @@ ul li {
   list-style: none;
 }
 
+ul li a {
+  color: var(--text-color-navigation-primary);
+}
+
+ul li a:hover {
+  font-weight: bold;
+}
+
 /* main */
 
-section h1,
-section ul {
-  font-family: "Mulish", sans-serif;
-}
+/* section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 489px;
+} */
 
 /* section h1 {
   width: 489px;
@@ -64,6 +81,12 @@ section ul {
 
 section h1 span {
   color: var(--text-color-highlight);
+}
+
+section p {
+  color: var(--text-color-primary);
+  line-height: 28px;
+  width: 438px;
 } */
 
 button {
