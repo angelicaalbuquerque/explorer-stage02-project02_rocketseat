@@ -11,9 +11,10 @@
 :root {
   --text-color-primary: #7d7987;
   --text-color-secondary: #000;
-  --text-color-highlight: #89c5cc;
+  --color-highlight: #89c5cc;
   --text-color-navigation-primary: #1f1534;
   --gray: #f9f9f9;
+  --green: #69b99d;
 }
 
 /* general */
@@ -63,6 +64,7 @@ ul li a {
 
 ul li a:hover {
   font-weight: bold;
+  transition: all 0.5s;
 }
 
 /* main */
@@ -82,7 +84,7 @@ h1 {
 }
 
 h1 span {
-  color: var(--text-color-highlight);
+  color: var(--color-highlight);
   font-weight: bold;
 }
 
@@ -96,6 +98,24 @@ p {
 button {
   font-family: "DM Sans", sans-serif;
   text-transform: uppercase;
+  font-size: 16px;
+  color: var(--gray);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 15px 32px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--green);
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: var(--color-highlight);
+  cursor: pointer;
 }
 
 /* footer */
