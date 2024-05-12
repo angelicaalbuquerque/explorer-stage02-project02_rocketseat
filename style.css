@@ -23,6 +23,12 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: var(--text-color-primary);
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+  min-height: 100vh;
 }
 
 ul li a,
@@ -32,7 +38,8 @@ a {
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 section h1,
@@ -60,11 +67,12 @@ ul li {
 
 ul li a {
   color: var(--text-color-navigation-primary);
+  opacity: 0.5;
 }
 
 ul li a:hover {
   font-weight: bold;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 /* main */
